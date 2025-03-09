@@ -5,6 +5,8 @@
 
 <p>The project also includes various components, files, and resources necessary to view and understand how the circuit operates. It is ideal for students and hobbyists looking to explore digital logic circuits and learn about time-keeping in binary format.</p>
 
+<p><strong>Check my post in LinkedIn to see the simulation of my clock:</strong> <strong><a href="https://www.linkedin.com/posts/mehedi-hasan86_designed-and-simulated-a-digital-clock-using-activity-7304647573372358656-Dfbq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFUCP4kBC1AIuBA45X2iqOXn7lX5nu1yFDg" target="_blank">Digital Clock Simulation</a></strong></p>
+
 <h2>📂 File Structure</h2>
 <pre>
 /My_Digital_Clock_in_Logisim
