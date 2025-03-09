@@ -1,87 +1,104 @@
-# My Digital Clock in Logisim
+<h1>🚀 My Digital Clock in Logisim</h1>
 
-<h2>Project Overview</h2>
-<p>
-This repository contains the implementation of a <strong>Digital Clock</strong> using <strong>Logisim</strong>, a digital circuit design software. The project demonstrates the design of a basic digital clock, including the integration of various components such as counters, multiplexers, and clocks to manage timekeeping in binary format. The clock project was built using <strong>Logisim Evolution</strong>, a graphical tool for designing and simulating digital logic circuits. The project includes the necessary Logisim files, screenshots, and other related resources for a complete setup.
-</p>
+<h2>📖 Introduction</h2>
+<p>This repository contains the design and simulation of a Digital Clock using Logisim Evolution, a digital circuit simulation tool. The project demonstrates how digital components, such as counters, multiplexers, and clock signals, can be used to implement a functioning digital clock. The clock displays the time in hours, minutes, and seconds using a binary counter approach.</p>
 
-<h3>File Structure</h3>
+<p>The project also includes various components, files, and resources necessary to view and understand how the circuit operates. It is ideal for students and hobbyists looking to explore digital logic circuits and learn about time-keeping in binary format.</p>
+
+<h2>📂 File Structure</h2>
 <pre>
-My_Digital_Clock/
-├── Screenshorts/
-│   └── (Screenshots of the circuit design for reference)
-├── mehedi_2107086.circ
-│   └── Logisim file for the digital clock design
-├── new_Mehedi_2107086.circ
-│   └── Updated Logisim file with improvements
-└── README.md
-    └── Project overview and instructions
+/My_Digital_Clock_in_Logisim
+│── Screenshorts/                # Screenshots of the digital clock simulation
+│── mehedi_2107086.circ          # Logisim file for the original clock design
+│── new_Mehedi_2107086.circ      # Logisim file for the updated clock design
+│── README.md                    # Project overview and instructions
 </pre>
-<p>
-- <strong>Screenshorts/</strong>: Contains images of the Logisim circuit design and simulation results.<br>
-- <strong>mehedi_2107086.circ</strong>: This is the original Logisim circuit file for the digital clock design.<br>
-- <strong>new_Mehedi_2107086.circ</strong>: This is the updated version of the circuit with improvements and additional features.
-</p>
 
-<h3>Requirements</h3>
-<p>
-To work with this project and open the Logisim files, you need to have <strong>Logisim Evolution</strong> installed. Logisim Evolution is a free software tool that allows you to create and simulate digital circuits. You can download Logisim Evolution from the official site:
-</p>
+<h2>🛠 Included Files</h2>
+
+<h3>1️⃣ mehedi_2107086.circ</h3>
+<p>This is the original Logisim circuit file for the digital clock design. The circuit includes counters for seconds, minutes, and hours, as well as necessary components to control the flow of the clock.</p>
+
+<p><strong>Key Features:</strong></p>
 <ul>
-  <li><a href="https://github.com/reds-heig/logisim-evolution">Logisim Evolution</a></li>
+  <li>Counter logic for tracking time in seconds, minutes, and hours.</li>
+  <li>Multiplexers to select the appropriate value for display.</li>
+  <li>Uses clock signals to update the values at regular intervals.</li>
 </ul>
 
-<h3>How to Open the Project</h3>
-<ol>
-  <li><strong>Clone the Repository:</strong> If you haven’t already, clone the repository to your local machine using the following command:
-    <pre><code>git clone https://github.com/Mehedi-86/My_Digital_Clock_in_Logisim.git</code></pre>
-  </li>
-  <li><strong>Open Logisim Evolution:</strong> Open Logisim Evolution on your machine.</li>
-  <li><strong>Open the Circuit Files:</strong> Navigate to the directory where you cloned the repository and open the Logisim files:
-    <ul>
-      <li><strong>mehedi_2107086.circ</strong> for the original clock design.</li>
-      <li><strong>new_Mehedi_2107086.circ</strong> for the updated version.</li>
-    </ul>
-  </li>
-  <li><strong>View Screenshots:</strong> You can also view the screenshots in the <strong>Screenshorts</strong> folder for a visual representation of the design.</li>
-</ol>
+<h3>2️⃣ new_Mehedi_2107086.circ</h3>
+<p>This is an updated version of the original mehedi_2107086.circ file, with improvements and enhancements. It may include optimizations in the circuit, additional features, or fixes that improve its performance or simulation accuracy.</p>
 
-<h3>How It Works</h3>
-<p>
-This digital clock design is based on basic components of digital circuits such as:
-</p>
+<p><strong>Key Features:</strong></p>
 <ul>
-  <li><strong>Counters:</strong> Used to keep track of seconds, minutes, and hours.</li>
-  <li><strong>Multiplexers:</strong> To control which value (hours, minutes, seconds) is displayed at a given time.</li>
-  <li><strong>Clock:</strong> A periodic signal used to sync operations in the circuit.</li>
-  <li><strong>Displays:</strong> The output values are displayed on a 7-segment display or similar visual elements.</li>
+  <li>Improved counter precision to handle overflows.</li>
+  <li>More efficient logic for time increments.</li>
+  <li>Better simulation performance with reduced complexity.</li>
 </ul>
 
-<h3>How to Use</h3>
-<ol>
-  <li><strong>Simulate the Clock:</strong> Once you open the .circ file in Logisim Evolution, you can start the simulation by clicking the <strong>Simulate</strong> button (or pressing <code>Ctrl + R</code>).
-    The clock should start running, showing the current time in hours, minutes, and seconds.
-  </li>
-  <li><strong>Modify and Experiment:</strong> You can modify the circuit to add more features like alarm settings, date display, or any additional functionality. Save your changes by saving the updated .circ file.</li>
-</ol>
+<h3>3️⃣ Screenshorts</h3>
+<p>This folder contains screenshots of the Logisim project, showing the digital clock circuit design and simulation results. These images help to visualize how the circuit is constructed and how the simulation behaves.</p>
 
-<h3>Contributing</h3>
-<p>
-If you want to contribute to this project, you can:
+<p><strong>Key Features:</strong></p>
 <ul>
-  <li>Fork the repository.</li>
-  <li>Make your changes and improvements.</li>
-  <li>Submit a pull request with a description of the changes you made.</li>
+  <li>Visual representation of the digital clock design.</li>
+  <li>Simulation outputs that demonstrate how the clock increments time.</li>
+  <li>Useful for understanding the flow of the circuit and how components interact.</li>
 </ul>
-</p>
 
-<h3>License</h3>
-<p>This project is open-source and available under the <strong>MIT License</strong>. You can freely use, modify, and distribute it as per the terms of the license.</p>
+<h3> 4️⃣ README.md </h3>
+This file contains an overview of the project, the functionality of the digital clock, and instructions on how to open and run the circuit in **Logisim Evolution**. It also provides guidance on troubleshooting and future improvements.
 
-<h3>Acknowledgments</h3>
-<p>
-- Logisim Evolution for providing the platform to design and simulate digital circuits.<br>
-- Inspiration and ideas from various digital clock designs and Logisim tutorials.
-</p>
+<h2>🚀 How to Run the Digital Clock Circuit</h2>
 
-<p>Feel free to reach out if you have any questions or suggestions regarding the project.</p>
+<h3>🔹 Steps to Open in Logisim Evolution</h3>
+<p><strong>1. Download and Install Logisim Evolution:</strong><br>
+If you don’t already have Logisim Evolution installed, download it from the official website:<br>
+<a href="https://logisim-evolution.org" target="_blank">Logisim Evolution</a></p>
+
+<p><strong>2. Open Logisim Evolution:</strong><br>
+Launch the Logisim Evolution software after installation.</p>
+
+<p><strong>3. Load the Circuit Files:</strong><br>
+Open the repository directory where you saved the files. Select the <strong>mehedi_2107086.circ</strong> or <strong>new_Mehedi_2107086.circ</strong> files to load them into Logisim Evolution.</p>
+
+<p><strong>4. Start the Simulation:</strong><br>
+Click on <strong>Simulate → Tick Once</strong> or press the <strong>F5</strong> key to run the simulation. The clock should start running and will display the time on the screen.</p>
+
+<p><strong>5. Modify Inputs and Observe Outputs:</strong><br>
+You can modify the simulation by adding switches for user input or using LEDs to display output. The digital clock will update based on the clock pulses.</p>
+
+<hr>
+
+<h3>🔍 Debugging & Common Issues</h3>
+
+<h4>🔹 Floating Inputs (Red Wires)</h4>
+<p>Ensure that all inputs, especially for logic gates, have a defined value. In Logisim, floating inputs are shown as red wires, indicating undefined or missing inputs.<br>
+<strong>Solution:</strong> Use <strong>constants</strong> or <strong>input switches</strong> to provide defined values for inputs.</p>
+
+<h4>🔹 Incorrect Outputs</h4>
+<p>If the output doesn’t match the expected result, there may be an issue with the logic or connections in the circuit.<br>
+<strong>Solution:</strong> Double-check the wiring, ensure proper clock signals are applied, and verify the truth tables for combinational logic.</p>
+
+<h4>🔹 Clock Not Updating</h4>
+<p>Sometimes, the clock signal may not be properly connected, or there may be an issue with how the clock is driving the counters.<br>
+<strong>Solution:</strong> Make sure that the clock signal is connected to the appropriate components and that the circuit is receiving the correct pulses.</p>
+
+<hr>
+
+<h3>🛠 Future Improvements</h3>
+<ul>
+  <li>✅ Extend the counter circuits to support higher bit-widths for larger time representations.</li>
+  <li>✅ Implement an alarm feature to trigger at a specific time.</li>
+  <li>✅ Improve cache management for the digital clock design, such as adding a backup for time in case of power failure.</li>
+</ul>
+
+<hr>
+
+<h3>📜 License</h3>
+<p>This project is <strong>open-source</strong>. You are free to use, modify, and contribute to the project under the terms of the <strong>MIT License</strong>. Feel free to create forks, submit pull requests, or report issues.</p>
+
+<hr>
+
+<h3>💡 Conclusion</h3>
+<p>This repository serves as an example of <strong>digital logic design</strong> using <strong>Logisim Evolution</strong>. The digital clock demonstrates basic concepts such as counters, multiplexers, and clock signal management, providing a simple yet effective way to learn about binary time-keeping and digital electronics. This project is helpful for anyone learning about digital circuits, computer architecture, or hobbyists interested in experimenting with Logisim Evolution.</p>
